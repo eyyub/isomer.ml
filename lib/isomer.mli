@@ -1,8 +1,10 @@
 [@@@js.stop]
-module Point = Isomer_point
-module Path = Isomer_path
-module Shape = Isomer_shape
+module Canvas = Isomer_canvas
 module Color = Isomer_color
+module Path = Isomer_path
+module Point = Isomer_point
+module Shape = Isomer_shape
+module Vector = Isomer_vector
 [@@@js.start]
 
 type t = private Ojs.t
